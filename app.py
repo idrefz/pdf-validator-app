@@ -40,7 +40,7 @@ def extract_nomor_seri_from_pdf(file):
         return match.group(0) if match else None
 
 if menu == "📄 Upload & Generate":
-    st.title("📄 Upload PDF & Tambahkan Nomor Seri Otomatis")
+    st.title("📄 Validasi Data file Data Valins Banten")
 
     uploaded_pdf = st.file_uploader("Unggah PDF", type=["pdf"])
     if uploaded_pdf:
