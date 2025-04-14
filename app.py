@@ -52,7 +52,7 @@ if menu == "📄 Upload & Generate":
 
         st.success(f"✅ Nomor Seri: `{nomor_seri}` telah ditambahkan.")
         with open(output_path, "rb") as f:
-            st.download_button("⬇️ Download PDF dengan Nomor Seri", f, file_name=nama_file)
+            st.download_button("⬇️ Validasi Data PDF dengan Nomor Seri", f, file_name=nama_file)
 
 elif menu == "🔍 Cek Validasi":
     st.title("🔍 Validasi PDF Berdasarkan Nomor Seri")
